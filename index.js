@@ -1,6 +1,6 @@
 console.log('Hello Word');
 
-let x = 10;
+var x = 10;
 let prenom = 'Samy';
 let tab = [];
 
@@ -20,4 +20,8 @@ const pi = 3.14;
 let doc = {
     taille : null,
     force: undefined,
+}
+window.alert;
+function getPluriel(nb){
+    return nb>1 ? "s" : "";
 }
